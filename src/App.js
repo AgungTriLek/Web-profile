@@ -5,6 +5,8 @@ import NavbarItem from './component/Navbar-mobile/NavbarItem';
 import './App.css';
 import Description from './component/Home/Description';
 import Hero from './component/Home/Hero';
+import Intro from './component/About/Intro';
+import History from './component/About/History';
 
 function App() {
   return (
@@ -38,13 +40,32 @@ function App() {
       </header>
       <main 
       className='
-      flex
       px-[12px]
       sm:px-[60px]
       lg:px-[120px]
       '>
+        <section className='flex'>
         <Description />
         <Hero />
+        </section>
+        <h1 
+        className='text-4xl 
+        sm:text-5xl 
+        font-semibold 
+        text-center
+        mt-[40px]
+        sm:mt-[50px]
+        lg:mt-[100px]
+        mb-[30px]
+        sm:mb-[40px]
+        md:mb-[50px]
+        '>
+          About
+        </h1>
+        <section className='sm:flex'>
+          <Intro />
+          <History />
+        </section>
       </main>
     </div>
   );
