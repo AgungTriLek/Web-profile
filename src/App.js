@@ -3,10 +3,12 @@ import NavItem from './component/Navbar/NavItem'
 import NavBar from './component/Navbar-mobile/Navbar';
 import NavbarItem from './component/Navbar-mobile/NavbarItem';
 import './App.css';
+import Description from './component/Home/Description';
+import Hero from './component/Home/Hero';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <header>
         <Nav>
           <div className='xs:m-auto'>
@@ -34,6 +36,16 @@ function App() {
           <NavbarItem href='#Contact'>Contact</NavbarItem>
         </NavBar>
       </header>
+      <main 
+      className='
+      flex
+      px-[12px]
+      sm:px-[60px]
+      lg:px-[120px]
+      '>
+        <Description />
+        <Hero />
+      </main>
     </div>
   );
 }
