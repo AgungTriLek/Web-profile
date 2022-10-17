@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Service({gambar, title, text}) {
   return (
-    <div className='flex px-2 py-3 mx-4 my-4 w-[360px] h-[140px] 
+    <div className='flex px-2 py-3 sm:mx-4 my-4 sm:w-[360px] sm:h-[140px] 
     bg-white
     rounded-lg
     shadow-lg
-    xs:w-screen
+    xs:w-full
     xs:h-auto
     shadow-neutral-300
     sm:shadow-none

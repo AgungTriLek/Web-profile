@@ -6,7 +6,8 @@ export default function Service({gambar, title, text}) {
     return alert('copied successfully')
   }
   return (
-    <div onClick={() => Copytext(title)} className='flex px-2 py-3 mx-2 my-4 w-[400px] h-[100px] 
+    <div onClick={() => Copytext(title)} className=' px-2 py-3 mx-2 my-4 sm:w-[400px]
+    text-center
     bg-gradient-to-bl 
     to-[#A66CFF] 
     from-[#3971A4] 
@@ -15,11 +16,9 @@ export default function Service({gambar, title, text}) {
     hover:shadow-[#a76cffb2]
     cursor-pointer
     '>
-        <div className='mt-2 mr-4'>
-            <img width={40} src={gambar} alt="atl" />
-        </div>
-        <div className='mt-2 '>
-            <h1 className='font-bold text-xl mb-3'>{title}</h1>
+        <div className=''>
+            <img className='m-auto' width={40} src={gambar} alt="atl" />
+            <h1 className='font-semibold text-base mb-1 mt-3'>{title}</h1>
             <p>{text}</p>
         </div>
     </div>

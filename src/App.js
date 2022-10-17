@@ -44,6 +44,7 @@ function App() {
           flex
           space-x-3
           xs:hidden
+          xs:z-50
           '>
             <NavItem href='#Home'>Home</NavItem>
             <NavItem href='#About'>About</NavItem>
