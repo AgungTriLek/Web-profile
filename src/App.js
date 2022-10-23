@@ -32,6 +32,8 @@ import WA from './asset/icons/WhatsApp.png';
 import IG from './asset/icons/IG.png';
 import Footer from './component/Footer/Footer';
 
+
+
 function App() {
   return (
     <div className="">
@@ -69,7 +71,7 @@ function App() {
       sm:px-[60px]
       lg:px-[120px]
       '>
-        <section className='flex'>
+        <section className='flex xs:h-full sm:h-screen'>
         <Description />
         <Hero />
         </section>
@@ -79,15 +81,14 @@ function App() {
         font-semibold 
         text-center
         mt-[40px]
-        sm:mt-[50px]
-        lg:mt-[100px]
+        sm:mt-[0px]
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]
         '>
           About
         </h1>
-        <section className='sm:flex'>
+        <section className='sm:flex sm:h-screen lg:mt-7'>
           <Intro />
           <History />
         </section>
@@ -98,7 +99,7 @@ function App() {
         text-center
         mt-[40px]
         sm:mt-[50px]
-        lg:mt-[100px]
+        lg:mt-[0px]
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]

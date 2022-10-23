@@ -1,4 +1,7 @@
-import React from 'react'
+import Aos from 'aos';
+import React from 'react';
+
+Aos.init()
 
 export default function Service({gambar, title, text}) {
   function Copytext(value) {
@@ -15,7 +18,10 @@ export default function Service({gambar, title, text}) {
     hover:shadow-lg
     hover:shadow-[#a76cffb2]
     cursor-pointer
-    '>
+    '
+    data-aos="fade"
+    data-aos-duration="1000"
+    >
         <div className=''>
             <img className='m-auto' width={40} src={gambar} alt="atl" />
             <h1 className='font-semibold text-base mb-1 mt-3'>{title}</h1>

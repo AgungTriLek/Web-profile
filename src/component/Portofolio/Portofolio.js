@@ -1,4 +1,7 @@
-import React from 'react'
+import Aos from 'aos';
+import React from 'react';
+
+Aos.init()
 
 export default function Portofolio({gambar, title, href, demo}) {
   return (
@@ -9,7 +12,11 @@ export default function Portofolio({gambar, title, href, demo}) {
     from-[#3971A4] 
     rounded-lg
     hover:shadow-lg
-    hover:shadow-[#a76cffb2]'>
+    hover:shadow-[#a76cffb2]
+    '
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    >
         <img className='w-full' src={gambar} alt="" />
         <h1 className='font-bold my-3 h-10'>{title}</h1>
         <div className='flex justify-around items-center'>

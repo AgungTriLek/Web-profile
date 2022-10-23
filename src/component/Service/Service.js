@@ -1,4 +1,7 @@
-import React from 'react'
+import Aos from 'aos';
+import React from 'react';
+
+Aos.init()
 
 export default function Service({gambar, title, text}) {
   return (
@@ -11,7 +14,11 @@ export default function Service({gambar, title, text}) {
     shadow-neutral-300
     sm:shadow-none
     hover:shadow-lg
-    hover:shadow-[#a76cffb2]'>
+    hover:shadow-[#a76cffb2]
+    '
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    >
         <div className=' mr-4 flex-auto'>
             <img className=' aspect-square w-[66px]' src={gambar} alt="atl" />
         </div>
