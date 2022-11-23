@@ -37,7 +37,7 @@ import Footer from './component/Footer/Footer';
 function App() {
   return (
     <div className="">
-      <header>
+      <header className="fixed right-0 left-0 z-50">
         <Nav>
           <div className='xs:m-auto'>
             <NavItem href='Home'>AGUNG</NavItem>
@@ -50,8 +50,9 @@ function App() {
           '>
             <NavItem href='#Home'>Home</NavItem>
             <NavItem href='#About'>About</NavItem>
-            <NavItem href='#My-Skill'>My Skill</NavItem>
-            <NavItem href='#Project'>Project</NavItem>
+            <NavItem href='#Skill'>My Skill</NavItem>
+            <NavItem href='#Service'>Service</NavItem>
+            <NavItem href='#Porto'>Portofolio</NavItem>
             <NavItem href='#Contact'>Contact</NavItem>
           </div>
         </Nav>
@@ -60,8 +61,9 @@ function App() {
             Home
           </NavbarItem>
           <NavbarItem href='#About'>About</NavbarItem>
-          <NavbarItem href='#My-Skill'>My Skill</NavbarItem>
-          <NavbarItem href='#Project'>Project</NavbarItem>
+          <NavbarItem href='#Skill'>My Skill</NavbarItem>
+          <NavItem href='#Service'>Service</NavItem>
+          <NavbarItem href='#Porto'>Portofolio</NavbarItem>
           <NavbarItem href='#Contact'>Contact</NavbarItem>
         </NavBar>
       </header>
@@ -71,42 +73,46 @@ function App() {
       sm:px-[60px]
       lg:px-[120px]
       '>
-        <section className='flex xs:h-full sm:h-screen'>
+        <section  id='Home' className='flex xs:h-full xs:pt-14 sm:h-screen'>
         <Description />
         <Hero />
         </section>
         <h1 
+        id='About'
         className='text-4xl 
         sm:text-5xl 
         font-semibold 
         text-center
-        mt-[40px]
+        pt-[50px]
         sm:mt-[0px]
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]
+        lg:pt-14
         '>
           About
         </h1>
-        <section className='sm:flex sm:h-screen lg:mt-7'>
+        <section className='sm:flex sm:h-full lg:mt-7'>
           <Intro />
           <History />
         </section>
         <h1 
+        id='Skill'
         className='text-4xl 
         sm:text-5xl 
         font-semibold 
         text-center
-        mt-[40px]
+        pt-[50px]
         sm:mt-[50px]
-        lg:mt-[0px]
+        lg:mt-[44px]
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]
+        lg:pt-14
         '>
           My Skill
         </h1>
-        <section className='text-center sm:flex sm:flex-wrap sm:justify-center'>
+        <section className='text-center sm:flex sm:flex-wrap sm:justify-center sm:h-full'>
           <Skill gambar={Html} text='HTML 5' />
           <Skill gambar={CSS3} text='CSS' />
           <Skill gambar={JavaScript} text='Javascript' />
@@ -117,21 +123,23 @@ function App() {
           <Skill gambar={MongoDB} text='MongoDB' text2='Basic' />
           <Skill gambar={Express} text='Express' text2='Basic' />
         </section>
-        <h1 
+        <h1
+        id='Service' 
         className='text-4xl 
         sm:text-5xl 
         font-semibold 
         text-center
-        mt-[40px]
+        pt-[50px]
         sm:mt-[50px]
-        lg:mt-[100px]
+        lg:mt-[44px]
+        lg:pt-14
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]
         '>
           Service
         </h1>
-        <section className='sm:flex flex-wrap justify-center' >
+        <section className='sm:flex flex-wrap justify-center sm:h-full' >
           <Service gambar={Feature} title='Awesome Feature' text='Create current features with the simplest algorithm' />
           <Service gambar={Animation} title='Animated Elements' text='Elements look alive with smooth animation' />
           <Service gambar={Responsive} title='Responsive' text="Designing a website layout that can adapt to the user's screen size" />
@@ -140,13 +148,15 @@ function App() {
           <Service gambar={Call} title='Fast Respond' text='Respond to your requests quickly, friendly, and professional' />
         </section>
         <h1 
+        id='Porto'
         className='text-4xl 
         sm:text-5xl 
         font-semibold 
         text-center
-        mt-[40px]
+        pt-[50px]
         sm:mt-[50px]
-        lg:mt-[100px]
+        lg:mt-[44px]
+        lg:pt-14
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]
@@ -157,13 +167,15 @@ function App() {
           <SwiperPorto />
         </section>
         <h1 
+        id='Contact'
         className='text-4xl 
         sm:text-5xl 
         font-semibold 
         text-center
-        mt-[40px]
-        sm:mt-[50px]
-        lg:mt-[100px]
+        pt-[50px]
+        sm:pt-[50px]
+        lg:mt-[44px]
+        lg:pt-14
         mb-[30px]
         sm:mb-[40px]
         md:mb-[50px]

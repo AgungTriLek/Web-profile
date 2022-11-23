@@ -20,7 +20,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 export default function App() {
   return (
-    <div className='m-auto'>
+    <>
       <Swiper
        breakpoints={{  
         320: {
@@ -61,6 +61,6 @@ export default function App() {
             <Portofolio gambar={Project4} title={'Prosess Project'} />
         </SwiperSlide>
       </Swiper>
-    </div>
+    </>
   );
 }
