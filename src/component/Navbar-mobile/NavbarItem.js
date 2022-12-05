@@ -7,7 +7,7 @@ export default function NavbarItem({ href, isActive, children }) {
         href={href}
         className={`
     block
-    text-[14px]
+    text-[12px]
     sm:text-base
     rounded-md
     py-5

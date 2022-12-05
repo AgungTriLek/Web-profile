@@ -10,7 +10,6 @@ import Hero from "./component/Home/Hero";
 import Intro from "./component/About/Intro";
 import History from "./component/About/History";
 import Skill from "./component/skill/Skill";
-import ToggleUp from "./component/ScrollUp/ScrollUp";
 
 import Service from "./component/Service/Service";
 import Feature from "./asset/icons/feature.png";
@@ -32,7 +31,9 @@ function App() {
       <header className="fixed right-0 left-0 z-50">
         <Nav>
           <div className="xs:m-auto">
-            <NavItem href="Home">AGUNG</NavItem>
+            <NavItem href="Home">
+              <strong>AGUNG</strong>
+            </NavItem>
           </div>
           <div
             className="
@@ -51,13 +52,14 @@ function App() {
           </div>
         </Nav>
         <NavBar>
+          <NavbarItem href="#Home">Home</NavbarItem>
           <NavbarItem href="#About">About</NavbarItem>
           <NavbarItem href="#Skill">My Skill</NavbarItem>
           <NavbarItem href="#Service">Service</NavbarItem>
           <NavbarItem href="#Porto">Portofolio</NavbarItem>
           <NavbarItem href="#Contact">Contact</NavbarItem>
         </NavBar>
-        <ToggleUp />
+        {/* <ToggleUp /> */}
       </header>
       <main className="">
         <section
@@ -69,7 +71,7 @@ function App() {
       bg-gradient-to-tl to-purple-50 via-purple-100 from-purple-400
       "
         >
-          <div className="md:grid md:grid-flow-col md:grid-cols-12 xs:h-full xs:pt-14 sm:h-screen ">
+          <div className="md:grid md:grid-flow-col md:grid-cols-12 xs:h-screen xs:pt-14 sm:h-screen ">
             <Description />
             <Hero />
           </div>
@@ -91,7 +93,7 @@ function App() {
           About
         </h1>
         <section
-          className="sm:flex sm:h-full lg:mt-7 
+          className="sm:flex sm:h-full lg:mt-7 xs:mb-[50px]
           px-[12px]
           sm:px-[60px]
           lg:px-[120px]"
@@ -109,7 +111,7 @@ function App() {
         px-[12px]
         sm:px-[60px]
         lg:px-[120px]
-        
+        pb-[50px]
         "
         >
           <h1
@@ -150,7 +152,7 @@ function App() {
         >
           Service
         </h1>
-        <section className="sm:flex flex-wrap justify-center sm:h-full">
+        <section className="sm:flex flex-wrap justify-center sm:h-full xs:mb-[50px]">
           <Service
             gambar={Feature}
             title="Awesome Feature"

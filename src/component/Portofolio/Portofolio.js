@@ -7,7 +7,7 @@ export default function Portofolio({ gambar, title, href, demo }) {
   return (
     <div
       className="px-4 py-3
-    my-4 mx-4
+    my-10 mx-4
     bg-gradient-to-bl 
     to-[#A66CFF] 
     from-[#3971A4] 
@@ -18,7 +18,7 @@ export default function Portofolio({ gambar, title, href, demo }) {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <img loading="lazy" className="w-full" src={gambar} alt="" />
+      <img loading="lazy" className="w-full" src={gambar} alt="Portofolio" />
       <h1 className="font-bold my-3 h-10">{title}</h1>
       <div className="flex justify-around items-center">
         <a className="hover:text-white" href="#github">

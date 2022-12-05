@@ -84,7 +84,7 @@ export default function Description() {
           >
             <img
               loading="lazy"
-              className="inline mr-2 w-6 sm:w-[33px]"
+              className="inline mr-2 w-8"
               src={email}
               alt=""
             />
@@ -108,7 +108,7 @@ export default function Description() {
           >
             <img
               loading="lazy"
-              className=" w-6 sm:w-[33px]
+              className=" w-10 
                         hover:shadow-lg
                         hover:shadow-[#a76cffb2]
                         rounded-3xl "
@@ -130,7 +130,7 @@ export default function Description() {
           >
             <img
               loading="lazy"
-              className=" w-6 sm:w-[33px]
+              className=" w-10 
                         hover:shadow-lg
                         hover:shadow-[#a76cffb2]
                         rounded-3xl "
@@ -152,7 +152,7 @@ export default function Description() {
           >
             <img
               loading="lazy"
-              className=" w-6 sm:w-[33px]
+              className=" w-10 
                         hover:shadow-lg
                         hover:shadow-[#a76cffb2]
                         rounded-3xl "
@@ -174,7 +174,7 @@ export default function Description() {
           >
             <img
               loading="lazy"
-              className=" w-6 sm:w-[33px]
+              className=" w-10 
                         hover:shadow-lg
                         hover:shadow-[#a76cffb2]
                         rounded-3xl "
