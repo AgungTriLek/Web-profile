@@ -1,19 +1,20 @@
-import React from 'react'
+import React from "react";
 
-export default function NavItem({href, isActive, children}) {
+export default function NavItem({ href, isActive, children }) {
   return (
     <li>
-        <a 
+      <a
         href={href}
         className={`
         block
         py-3
-        px2
+        px-4
         rounded-md
-        ${isActive ? 'text-yellow-400': 'text-white'}
-        `}>
-            {children}
-        </a>
+        hover:bg-blue-700
+        `}
+      >
+        {children}
+      </a>
     </li>
-  )
+  );
 }

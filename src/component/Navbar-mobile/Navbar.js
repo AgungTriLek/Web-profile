@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function NavBar({children}) {
+export default function NavBar({ children }) {
   return (
-    <nav 
-    className='
+    <nav
+      className="
     py-2 px-6
     text-xs font-normal
-    bg-slate-900
+    text-zinc-900
+    bg-[#131F29]
     fixed bottom-0
     my-4 mx-4
     rounded-[50px]
@@ -15,15 +16,16 @@ export default function NavBar({children}) {
     left-0
     right-0
     
-    '>
-        <ul
-        className='
+    "
+    >
+      <ul
+        className="
         flex
         justify-between
-        space-x-3
-        '>
-            {children}
-        </ul>
+        "
+      >
+        {children}
+      </ul>
     </nav>
-  )
+  );
 }

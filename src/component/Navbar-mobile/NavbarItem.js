@@ -1,18 +1,22 @@
-import React from 'react'
+import React from "react";
 
-export default function NavbarItem({href, isActive, children}) {
+export default function NavbarItem({ href, isActive, children }) {
   return (
     <li>
-    <a 
-    href={href}
-    className={`
+      <a
+        href={href}
+        className={`
     block
-    py-3
+    text-[14px]
+    sm:text-base
     rounded-md
-    ${isActive ? 'text-yellow-400': 'text-white'}
-    `}>
+    py-5
+    text-white
+    font-semibold
+    `}
+      >
         {children}
-    </a>
-</li>
-  )
+      </a>
+    </li>
+  );
 }

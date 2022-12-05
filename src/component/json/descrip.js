@@ -1,0 +1,70 @@
+const data = [
+  {
+    id: 1,
+    title: "HTML5",
+    descript: `<p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final[3] major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).</p><p>HTML5 was first released in a public-facing form on 22 January 2008, with a major update and "W3C Recommendation" status in October 2014. Its goals were to improve the language with support...</p> `,
+    link: "https://en.wikipedia.org/wiki/HTML5",
+    img: "Html5.png",
+  },
+  {
+    id: 2,
+    title: "CSS",
+    descript: `<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p><p>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate. css file...</p>`,
+    link: "https://en.wikipedia.org/wiki/CSS",
+    img: "CSS3.png",
+  },
+  {
+    id: 3,
+    title: "Javascript",
+    descript: `<p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices. </p><p>javaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces...</p>`,
+    link: "https://en.wikipedia.org/wiki/JavaScript",
+    img: "JavaScript.png",
+  },
+  {
+    id: 4,
+    title: "Bootstrap",
+    descript: `<p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. </p><p>Bootstrap is an HTML, CSS and JS Library that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. </p>`,
+    link: "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)",
+    img: "Bootstrap.png",
+  },
+  {
+    id: 5,
+    title: "React",
+    descript: `<p>React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.</p>`,
+    link: "https://en.wikipedia.org/wiki/React_(JavaScript_library)",
+    img: "React.png",
+  },
+  {
+    id: 6,
+    title: "Next.js",
+    descript: `<p>Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.  React documentation mentions Next.js among "Recommended Toolchains" advising it to developers as a solution when "Building a server-rendered website with Node.js". Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side.  The copyright and trademarks for Next.js are owned by Vercel, which also maintains and leads its open-source development.</p>`,
+    link: "https://en.wikipedia.org/wiki/Next.js",
+    img: "Nextjs.png",
+  },
+  {
+    id: 7,
+    title: "Node.js",
+    descript: `<p>Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser. </p><p>Node.js lets developers use JavaScript to write command line tools and for server-side scripting. The functionality of running scripts server-side produces dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.</p>`,
+    knowledge: "basic",
+    link: "https://en.wikipedia.org/wiki/Node.js",
+    img: "Nodejs.png",
+  },
+  {
+    id: 8,
+    title: "MongoDB",
+    descript: `<p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL) which is deemed non-free by several distributions. </p>`,
+    knowledge: "basic",
+    link: "https://en.wikipedia.org/wiki/MongoDB",
+    img: "MongoDB.png",
+  },
+  {
+    id: 9,
+    title: "Express",
+    descript: `<p>Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.</p><p>The original author, TJ Holowaychuk, described it as a Sinatra-inspired server,  meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.<p/>`,
+    knowledge: "basic",
+    link: "https://en.wikipedia.org/wiki/Express.js",
+    img: "ExpressJs.png",
+  },
+];
+
+export default data;

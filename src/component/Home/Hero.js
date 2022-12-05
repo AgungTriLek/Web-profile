@@ -1,20 +1,27 @@
-import React from 'react';
-import gambar from '../../asset/img/Hero.png';
+import React from "react";
+import gambar from "../../asset/ilustrasi/codingman.png";
 
 export default function Hero() {
   return (
-    <section 
-    className='
-    flex-1 hidden 
-    sm:flex 
-    md:flex-auto 
-    md:flex 
+    <section
+      className=" md:flex
+      hidden
+    col-span-7
     md:justify-center 
     md:items-center
-    lg:flex-1
     lg:mb-5
-    '>
-    <img className='md:w-[700px] lg:w-[400px]' src={gambar} alt=""/>
+    "
+    >
+      <div>
+        <img
+          loading="lazy"
+          className="
+        "
+          width={300}
+          src={gambar}
+          alt=""
+        />
+      </div>
     </section>
-  )
+  );
 }
