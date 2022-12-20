@@ -7,6 +7,7 @@ import WA from "../../asset/icons/WhatsApp.png";
 import IG from "../../asset/icons/Instagram.png";
 import LK from "../../asset/icons/LinkedIn.png";
 import GH from "../../asset/icons/GitHub.png";
+import CV from "../../asset/pdf/Agung Tri Leksono CV_organized.pdf";
 
 Aos.init();
 
@@ -159,7 +160,7 @@ export default function Intro() {
         data-aos-delay="50"
         data-aos-duration="200"
       >
-        <a href="#download" className="hover:undeline">
+        <a href={CV} className="hover:undeline">
           <img loading="lazy" className="inline mr-2" src={download} alt="" />
           Download CV
         </a>
