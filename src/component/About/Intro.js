@@ -42,7 +42,8 @@ export default function Intro() {
             href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=agungtrileksono1@gmail.com"
             rel="noreferrer"
             target="_blank"
-            className="py-3 px-5 
+            className="py-2 px-4
+            text-xs 
                     bg-gradient-to-bl 
                     to-[#A66CFF] 
                     from-[#3971A4] 
@@ -54,7 +55,7 @@ export default function Intro() {
           >
             <img
               loading="lazy"
-              className=" inline mr-2 w-8  "
+              className=" inline mr-2 w-8  md:w-5"
               src={email}
               alt=""
             />

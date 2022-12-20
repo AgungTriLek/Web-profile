@@ -71,7 +71,7 @@ function App() {
       bg-gradient-to-tl to-purple-50 via-purple-100 from-purple-400
       "
         >
-          <div className="md:grid md:grid-flow-col md:grid-cols-12 xs:h-screen xs:pt-14 sm:h-screen ">
+          <div className="md:grid md:grid-flow-col md:grid-cols-12 xs:h-screen xs:pt-14 md:h-full sm:h-screen ">
             <Description />
             <Hero />
           </div>
