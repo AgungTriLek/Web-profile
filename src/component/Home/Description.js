@@ -32,9 +32,9 @@ export default function Description() {
     <section
       className="
         text-center 
-        mt-[24px] 
-        sm:mt-[120px] 
-        lg:mt-[150px]
+        pt-[24px] 
+        sm:pt-[120px] 
+        lg:pt-[150px]
         col-span-5
         "
     >
